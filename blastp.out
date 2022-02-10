@@ -1,0 +1,517 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.13.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_45705</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
+  <BlastOutput_query-len>202</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>1e-10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_45705</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
+  <Iteration_query-len>202</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>sp|Q5ZK10.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47; AltName: Full=p97 cofactor p47 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZK10</Hit_accession>
+  <Hit_len>369</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>4.53924e-27</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>LWKTGFSLDSGELRSYQDPSNAQFLDDIRRGEVPAELRRLARGGQ-VNLDMEDHRDEEYVKPKSVFKAFTGEGQKLGSTAPQVLSTSSPAQQAENEAKASSAIAIDESEPVTNIQIRLADGGRLVQKFNHNHRIRDIRLFIVDARPAMAATSFVLMTTFPNKELT-DENQTLKEANLLNAVIVQRL</Hsp_hseq>
+      <Hsp_midline>L+K GF +D  E R    P N  F+ DI+    P ELR+ ++  Q +N+ ++D   E YV PK   + F+G G  LG T        S A Q   E++A   + +D+++P TNIQ+R  +G + V   NH+H I D+    ++  P      + L++ FP KE+  D + TLK A LL   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|Q5RBG3.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47; AltName: Full=p97 cofactor p47 [Pongo abelii] &gt;sp|Q9UNZ2.2| RecName: Full=NSFL1 cofactor p47; AltName: Full=UBX domain-containing protein 2C; AltName: Full=p97 cofactor p47 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q5RBG3</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.227</Hsp_bit-score>
+      <Hsp_score>269</Hsp_score>
+      <Hsp_evalue>5.48339e-27</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>LWKSGFSLDNGELRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFVKPKGAFKAFTGEGQKLGSTAPQVLSTSSPAQQAENEAKASSSILIDESEPTTNIQIRLADGGRLVQKFNHSHRISDIRLFIVDARPAMAATSFILMTTFPNKELA-DESQTLKEANLLNAVIVQRL</Hsp_hseq>
+      <Hsp_midline>L+K+GF +D+ E R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V PK   + F+G G  LG T        S A Q   E++A   + +D+++PTTNIQ+R  +G + V   NH H I+D+    ++  P      + L++ FP KE+  D S TLK A LL   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q3SZC4.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47; AltName: Full=p97 cofactor p47 [Bos taurus]</Hit_def>
+  <Hit_accession>Q3SZC4</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>107.842</Hsp_bit-score>
+      <Hsp_score>268</Hsp_score>
+      <Hsp_evalue>7.62676e-27</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>LWKTGFSLDNGELRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFVKPKGAFKAFTGEGQKLGSTAPQILNTSSPAQQAENEAKASSSISIDESQPTTNIQIRLADGGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNAVIVQRL</Hsp_hseq>
+      <Hsp_midline>L+K GF +D+ E R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V PK   + F+G G  LG T        S A Q   E++A   +++D+++PTTNIQ+R  +G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q54BQ5.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47 homolog [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54BQ5</Hit_accession>
+  <Hit_len>415</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>103.605</Hsp_bit-score>
+      <Hsp_score>257</Hsp_score>
+      <Hsp_evalue>4.60769e-25</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>216</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>199</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEM-FSGSGNSLGQTRSSALQVNIESEAQ-------------------VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>VKVTFWNQGFTIDDGPLRKYDNPENKELLDDIQRGIVPRELQKKATTPNGLSVTLINNHNQDYVEPAKPKYVAFSGGGQTLGSSSTSTNNNNNNNNNNNNRATTTSTTTTSTPNVSSINVDQSQPTTTVQIRLANGSRLSTTFNHSHTLQDVINYINSSSGSNQSFDLLTGFPQKPVTNPTSTTLKDAGLLNALLIQKL</Hsp_hseq>
+      <Hsp_midline>+KV  +  GF IDD   R    PEN+  + DI+  + P EL+K++     ++V + +  ++ YV P KP  + FSG G +LG + +S    N  +                      + VD+++PTT +Q+R  NG +   T NH HT+ D+       +  +  + L++GFP K +    STTLK+AGLL   + Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|O35987.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47; AltName: Full=XY body-associated protein XY40; AltName: Full=p97 cofactor p47 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>O35987</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>9.63562e-25</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>LWKTGFSLDNGDLRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFVKPKGAFKAFTGEGQKLGSTAPQVLNTSSPAQQAENEAKASSSILINEAEPTTNIQIRLADGGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNAVIVQRL</Hsp_hseq>
+      <Hsp_midline>L+K GF +D+ + R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V PK   + F+G G  LG T        S A Q   E++A   + +++ +PTTNIQ+R  +G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q9CZ44.1|</Hit_id>
+  <Hit_def>RecName: Full=NSFL1 cofactor p47; AltName: Full=p97 cofactor p47 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9CZ44</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>102.449</Hsp_bit-score>
+      <Hsp_score>254</Hsp_score>
+      <Hsp_evalue>9.63562e-25</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>186</Hsp_hit-from>
+      <Hsp_hit-to>369</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>LWKTGFSLDNGDLRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFVKPKGAFKAFTGEGQKLGSTAPQVLNTSSPAQQAENEAKASSSILINEAEPTTNIQIRLADGGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNAVIVQRL</Hsp_hseq>
+      <Hsp_midline>L+K GF +D+ + R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V PK   + F+G G  LG T        S A Q   E++A   + +++ +PTTNIQ+R  +G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q9UT81.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 3; AltName: Full=Meiotically up-regulated gene 39 protein [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9UT81</Hit_accession>
+  <Hit_len>410</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.523</Hsp_bit-score>
+      <Hsp_score>249</Hsp_score>
+      <Hsp_evalue>6.21461e-24</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>197</Hsp_query-to>
+      <Hsp_hit-from>208</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>PENAIKVVLY--KNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQT------------------RSSALQVNIES-----EAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSGFPPKEIKFDPSTT-----LKNAGLLQETI</Hsp_qseq>
+      <Hsp_hseq>PEKPLRRTLYFWRNGFSVDDGPIYTYDDPANQEMLRYINSGRAPLHLLGVSMN-QPIDVVVQHRMDEDYVAPFKP---FSGKGQRLGSTYMQPRMSQMPGGLYTDTSTSSSVPINVKPNSTTPHASLQIDENKPTTRIQVRLSNGGRTVLTVNLSHTLHDIYEAVRAVSP--GNFILSVPFPAKTLEDDPSVTVEAASLKNASLVQKSL</Hsp_hseq>
+      <Hsp_midline>PE  ++  LY  +NGF +DD        P N+  +R I +  AP  L   S N Q I+V V  R  E YV P KP   FSG G  LG T                   SS++ +N++       A + +D+NKPTT IQ+R  NG + V+T+N  HT+ D++      +P  G + L   FP K ++ DPS T     LKNA L+Q+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q0KL01.2|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2B; AltName: Full=NSFL1 cofactor p37; AltName: Full=p97 cofactor p37 [Mus musculus]</Hit_def>
+  <Hit_accession>Q0KL01</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.14653e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>VLLKLWRNGFSLDDGELRPYSDPTNAQFLESVKRGETPLELQRLVHGAQ-VNLDMEDHQDQEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAAVLIDDSMPTTKIQIRLADGSRLVQRFNSTHRILDVRDFIVRSRPEFATTDFILVTSFPSKELT-DETVTLQEADILNTVILQQL</Hsp_hseq>
+      <Hsp_midline>+ + L++NGF +DD E R  S P N  F+  +K    P EL++     Q +N+ ++D   + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R  +G + V   N  H I D+    +   P     ++ LV+ FP KE+  D + TL+ A +L   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P0C627.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2B; AltName: Full=NSFL1 cofactor p37; AltName: Full=p97 cofactor p37 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P0C627</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>1.46431e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>ILLRLWSNGFSLDDGELRPYSDPTNAQFLESVKRGEIPLELQRLVHGSQ-VSLDMEDHQDQEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAAVLIDDSVPTTKIQIRLADGSRLIQRFNSTHRILDVRDFIVQSRPEFATTDFILVTSFPSKELT-DESVTLQDADILNTVILQQL</Hsp_hseq>
+      <Hsp_midline>I + L+ NGF +DD E R  S P N  F+  +K    P EL++    +Q +++ ++D   + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R  +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL++A +L   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q5ZLK2.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2B; AltName: Full=NSFL1 cofactor p37; AltName: Full=p97 cofactor p37 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZLK2</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>8.64074e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>178</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>90</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>ILLKLWRNGFSLDDGELRSYSDPINAQFLESVKRGEIPVDLQRLVHGGQ-VNLDMEDHQEQEYVKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAPVLIDDSVPATKIQIRLADGSRLIQRFNQTHRIKDIRDFIIQSRPAFATTDFVLVTTFPNKELT-DESLTLREADILNTVILQQL</Hsp_hseq>
+      <Hsp_midline>I + L++NGF +DD E R  S P N  F+  +K    P +L++     Q +N+ ++D   + YV P+   + FSG G  LG      +      E        A V +D + P T IQ+R  +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL+ A +L   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q14CS0.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2B; AltName: Full=NSFL1 cofactor p37; AltName: Full=p97 cofactor p37 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14CS0</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>84.7297</Hsp_bit-score>
+      <Hsp_score>208</Hsp_score>
+      <Hsp_evalue>1.9063e-18</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>144</Hsp_hit-from>
+      <Hsp_hit-to>330</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>189</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>ILLKLWSNGFSLDDGELRPYNEPTNAQFLESVKRGEIPLELQRLVHGGQ-VNLDMEDHQDQEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAVVLIDDSVPTTKIQIRLADGSRLIQRFNSTHRILDVRNFIVQSRPEFAALDFILVTSFPNKELT-DESLTLLEADILNTVLLQQL</Hsp_hseq>
+      <Hsp_midline>I + L+ NGF +DD E R  + P N  F+  +K    P EL++     Q +N+ ++D   + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R  +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL  A +L   + Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|Q9SUG6.1|</Hit_id>
+  <Hit_def>RecName: Full=Plant UBX domain-containing protein 3; Short=PUX3; AltName: Full=CDC48-interacting UBX-domain protein 3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SUG6</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>4.6297e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>AVENPGEYNSNGRGI------------------PENAIK-VVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEM-FSGSGNSLGQ------------TRSSALQVNIESEAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVD-GEYQL-VSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>AVEGPLEHPSSSRSFTGTGRLLSGESVPTALQQPEPVIHNIIFWSNGFTVDDGPLRKLDDPENASFLDSIRKSECPKELEPVDKR---APVHVNLMRRDEKCPEKEKLKVSFQGVGRTLGGASSSTASSQSNLTDVAAVQSPLQS---LVVDETLPSTSIQLRLADGTRMVAKFNNHHTVNDIRGFIEFSRPGNPNNYTLQVMGFPPKPLT-DPSQTIEQAGLASSVVIQKF</Hsp_hseq>
+      <Hsp_midline>AVE P E+ S+ R                    PE  I  ++ + NGF +DD   R +  PEN +F+  I+ S  P+EL    K      V V+    +   P K+ +++ F G G +LG             T  +A+Q  ++S   + VD+  P+T+IQLR  +G + V   N+ HT+ D+        P +   Y L V GFPPK +  DPS T++ AGL    + Q  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|Q0P3R5.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2B; AltName: Full=NSFL1 cofactor p37; AltName: Full=p97 cofactor p37 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q0P3R5</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>6.45463e-18</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>160</Hsp_hit-from>
+      <Hsp_hit-to>349</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>197</Hsp_align-len>
+      <Hsp_qseq>ENAIKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCI-------FMECAPVDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>EIQILLKLWSNGFSLDDGELRSYSDPINAEFLESVKKGEIPVELQRLVHGGQ-VNLDMEDHQDQEYIKPRLKFKAFSGEGKKLGSVTPEIISTPSSPEEEHKRFLNAEVDLDEHVPTTKIQIRLADGTRLIQRFNLSHRIMDVRQFIIHARSDFAQC-----DFALLTTFPNVELT-DETQTLEEADILNTVILQRL</Hsp_hseq>
+      <Hsp_midline>E  I + L+ NGF +DD E R  S P N  F+  +K    P EL++     Q +N+ ++D   + Y+ P+   + FSG G  LG      +      E        A+V +D++ PTT IQ+R  +G + +   N  H I D+          F +C     ++ L++ FP  E+  D + TL+ A +L   I Q L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|Q7Y175.1|</Hit_id>
+  <Hit_def>RecName: Full=Plant UBX domain-containing protein 5; Short=PUX5 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q7Y175</Hit_accession>
+  <Hit_len>421</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>2.96603e-17</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>236</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>191</Hsp_align-len>
+      <Hsp_qseq>VVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVD-DRSSEIYVPPKKPMEMFSGSGNSL----------GQTRSSALQVNIESEAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVS-GFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>ITFWLNGFTVNDGPLRGFSDPENAAFMNSISRSECPSELEPADKK---IPVHVDLVRRGENFTEPPKPKNPFQGVGRTLGASGSGSSSAPQASSAPMNVAPAPSRGLVVDPAAPTTSIQLRLADGTRLVSRFNNHHTVRDVRG-FIDASRPGGSKEYQLLTMGFPPKQLT-ELDQTIEQAGIANAVVIQKF</Hsp_hseq>
+      <Hsp_midline>+  + NGF ++D   R  S PEN AF+  I  S  P EL    K    I V VD  R  E +  P KP   F G G +L           Q  S+ + V       + VD   PTT+IQLR  +G + V   N+ HT+ D+   F++ +   G  EYQL++ GFPPK++  +   T++ AG+    + Q  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q8RWU7.1|</Hit_id>
+  <Hit_def>RecName: Full=Plant UBX domain-containing protein 4; Short=PUX4; AltName: Full=CDC48-interacting UBX-domain protein 4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8RWU7</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.1814</Hsp_bit-score>
+      <Hsp_score>191</Hsp_score>
+      <Hsp_evalue>3.82599e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>201</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>GEYNSNGRGIPENAIK-VVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEM-FSGSGNSLGQTRSSA--------------LQVNIESEAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP-VDGEYQLVS-GFPPKEIKFDPSTTLKNAGLLQETISQNL</Hsp_qseq>
+      <Hsp_hseq>GENVPTGNQQPEPVVHNIVFWSNGFTIDDGPLRKLDDPENASFLESIRKSECPKEL---EPADRRAPVHVNLMRKEEKCPERQKRRVSFQGVGRTLGGSNEGSGSSSPVAPDSAPIPIQTEPAPSQSLVIDETVPTTSIQLRLADGTRLVAKFNHHHTVNDIRGFIDSSRPGASLNYQLQTMGFPPKPLT-DLTQTIEEAGLANSVVLQKF</Hsp_hseq>
+      <Hsp_midline>GE    G   PE  +  +V + NGF IDD   R +  PEN +F+  I+ S  P+EL      ++   V V+    E   P ++   + F G G +LG +   +              +Q        + +D+  PTT+IQLR  +G + V   NH HT+ D+        P     YQL + GFPPK +  D + T++ AGL    + Q  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|P68543.1|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2A; AltName: Full=UBX domain-containing protein 4 [Homo sapiens]</Hit_def>
+  <Hit_accession>P68543</Hit_accession>
+  <Hit_len>259</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.0846</Hsp_bit-score>
+      <Hsp_score>157</Hsp_score>
+      <Hsp_evalue>1.00018e-11</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>198</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>232</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>183</Hsp_align-len>
+      <Hsp_qseq>IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTR----SSALQVNIESE---AQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETIS</Hsp_qseq>
+      <Hsp_hseq>VNIKLWKNGFTVNDD-FRSYSDGASQQFLNSIKKGELPSELQGIF-DKEEVDVKVEDKKNEICLSTKPVFQPFSGQGHRLGSATPKIVSKAKNIEVENKNNLSAVPLNNLEPITNIQIWLANGKRIVQKFNITHRVSHIK-DFIE------KYQGSQRSPP----FSLATALPVLRLLDETLT</Hsp_hseq>
+      <Hsp_midline>+ + L+KNGF ++D+ FR  S   ++ F+  IK    P EL+    + + ++V V+D+ +EI +  K   + FSG G+ LG       S A  + +E++   + V ++  +P TNIQ+   NG++ V   N  H ++ +   F+E      +YQ     PP    F  +T L    LL ET++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q9N2W5.2|</Hit_id>
+  <Hit_def>RecName: Full=UBX domain-containing protein 2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q9N2W5</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.929</Hsp_bit-score>
+      <Hsp_score>154</Hsp_score>
+      <Hsp_evalue>4.18006e-11</Hsp_evalue>
+      <Hsp_query-from>16</Hsp_query-from>
+      <Hsp_query-to>202</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>RGIPEN----AIKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSAL---------------------QVNIESEA--------QVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNLI</Hsp_qseq>
+      <Hsp_hseq>RGRPSGRETISLTLHLWSDGLSIEDGPLMSRQDPRTIEFLESVGKGEIPPSLVQQYPGKE-IDFKVN-RHHEEYVAPK--MKPFGGSGVRLGNVVPTVLGQSSSSATTAGTSSATTDHNPDHTAENEAKQLEDAKKELSTNMNEPTTNIQIRLPNNQRLVGIFNHSHTLEAVRTFICTARPDMIYAPFQMMAAYPPKPFE-DESQTLKDANVLNSVVAVKIL</Hsp_hseq>
+      <Hsp_midline>RG P      ++ + L+ +G  I+D        P    F+  +     P  L ++    + I+  V+ R  E YV PK  M+ F GSG  LG    + L                         E+EA        +++ + N+PTTNIQ+R  N Q+ V   NH HT+  +        P  +   +Q+++ +PPK  + D S TLK+A +L   ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>478091</Statistics_db-num>
+      <Statistics_db-len>181270864</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>

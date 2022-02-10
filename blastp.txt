@@ -1,0 +1,505 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: uniprot_sprot
+           563,972 sequences; 203,185,243 total letters
+
+
+
+Query= EAZ51215.1 hypothetical protein cgd4_4030, partial [Cryptosporidium
+parvum Iowa II]
+
+Length=202
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+sp|Q5ZK10|NSF1C_CHICK NSFL1 cofactor p47 OS=Gallus gallus OX=9031...  108     5e-27
+sp|Q5RBG3|NSF1C_PONAB NSFL1 cofactor p47 OS=Pongo abelii OX=9601 ...  108     6e-27
+sp|Q9UNZ2|NSF1C_HUMAN NSFL1 cofactor p47 OS=Homo sapiens OX=9606 ...  108     6e-27
+sp|Q3SZC4|NSF1C_BOVIN NSFL1 cofactor p47 OS=Bos taurus OX=9913 GN...  107     9e-27
+sp|Q54BQ5|NSF1C_DICDI NSFL1 cofactor p47 homolog OS=Dictyostelium...  103     5e-25
+sp|O35987|NSF1C_RAT NSFL1 cofactor p47 OS=Rattus norvegicus OX=10...  102     1e-24
+sp|Q9CZ44|NSF1C_MOUSE NSFL1 cofactor p47 OS=Mus musculus OX=10090...  102     1e-24
+sp|Q9UT81|UBX3_SCHPO UBX domain-containing protein 3 OS=Schizosac...  100     7e-24
+sp|Q0KL01|UBX2B_MOUSE UBX domain-containing protein 2B OS=Mus mus...  90.9    1e-20
+sp|P0C627|UBX2B_RAT UBX domain-containing protein 2B OS=Rattus no...  90.5    2e-20
+sp|Q5ZLK2|UBX2B_CHICK UBX domain-containing protein 2B OS=Gallus ...  88.6    1e-19
+sp|Q14CS0|UBX2B_HUMAN UBX domain-containing protein 2B OS=Homo sa...  84.7    2e-18
+sp|Q9SUG6|PUX3_ARATH Plant UBX domain-containing protein 3 OS=Ara...  83.2    5e-18
+sp|Q0P3R5|UBX2B_XENLA UBX domain-containing protein 2B OS=Xenopus...  83.6    7e-18
+sp|Q7Y175|PUX5_ARATH Plant UBX domain-containing protein 5 OS=Ara...  82.0    3e-17
+sp|Q8RWU7|PUX4_ARATH Plant UBX domain-containing protein 4 OS=Ara...  78.2    4e-16
+sp|P68543|UBX2A_HUMAN UBX domain-containing protein 2A OS=Homo sa...  65.1    1e-11
+sp|Q9N2W5|UBXN2_CAEEL UBX domain-containing protein 2 OS=Caenorha...  63.9    5e-11
+
+
+>sp|Q5ZK10|NSF1C_CHICK NSFL1 cofactor p47 OS=Gallus gallus OX=9031 
+GN=NSFL1C PE=2 SV=1
+Length=369
+
+ Score = 108 bits (270),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 65/186 (35%), Positives = 97/186 (52%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K GF +D  E R    P N  F+ DI+    P ELR+ ++  Q +N+ ++D   E YV
+Sbjct  185  LWKTGFSLDSGELRSYQDPSNAQFLDDIRRGEVPAELRRLARGGQ-VNLDMEDHRDEEYV  243
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   + +D+++P TNIQ+R  +
+Sbjct  244  KPKSVFKAFTGEGQKLGSTAPQVLSTSSPAQQAENEAKASSAIAIDESEPVTNIQIRLAD  303
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH+H I D+    ++  P      + L++ FP KE+  D + TLK A LL  
+Sbjct  304  GGRLVQKFNHNHRIRDIRLFIVDARPAMAATSFVLMTTFPNKELT-DENQTLKEANLLNA  362
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  363  VIVQRL  368
+
+
+>sp|Q5RBG3|NSF1C_PONAB NSFL1 cofactor p47 OS=Pongo abelii OX=9601 
+GN=NSFL1C PE=2 SV=1
+Length=370
+
+ Score = 108 bits (269),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 65/186 (35%), Positives = 98/186 (53%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K+GF +D+ E R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V
+Sbjct  186  LWKSGFSLDNGELRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFV  244
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   + +D+++PTTNIQ+R  +
+Sbjct  245  KPKGAFKAFTGEGQKLGSTAPQVLSTSSPAQQAENEAKASSSILIDESEPTTNIQIRLAD  304
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH H I+D+    ++  P      + L++ FP KE+  D S TLK A LL  
+Sbjct  305  GGRLVQKFNHSHRISDIRLFIVDARPAMAATSFILMTTFPNKELA-DESQTLKEANLLNA  363
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  364  VIVQRL  369
+
+
+>sp|Q9UNZ2|NSF1C_HUMAN NSFL1 cofactor p47 OS=Homo sapiens OX=9606 
+GN=NSFL1C PE=1 SV=2
+Length=370
+
+ Score = 108 bits (269),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 65/186 (35%), Positives = 98/186 (53%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K+GF +D+ E R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V
+Sbjct  186  LWKSGFSLDNGELRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFV  244
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   + +D+++PTTNIQ+R  +
+Sbjct  245  KPKGAFKAFTGEGQKLGSTAPQVLSTSSPAQQAENEAKASSSILIDESEPTTNIQIRLAD  304
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH H I+D+    ++  P      + L++ FP KE+  D S TLK A LL  
+Sbjct  305  GGRLVQKFNHSHRISDIRLFIVDARPAMAATSFILMTTFPNKELA-DESQTLKEANLLNA  363
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  364  VIVQRL  369
+
+
+>sp|Q3SZC4|NSF1C_BOVIN NSFL1 cofactor p47 OS=Bos taurus OX=9913 
+GN=NSFL1C PE=2 SV=1
+Length=370
+
+ Score = 107 bits (268),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 64/186 (34%), Positives = 98/186 (53%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K GF +D+ E R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V
+Sbjct  186  LWKTGFSLDNGELRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFV  244
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   +++D+++PTTNIQ+R  +
+Sbjct  245  KPKGAFKAFTGEGQKLGSTAPQILNTSSPAQQAENEAKASSSISIDESQPTTNIQIRLAD  304
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL  
+Sbjct  305  GGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNA  363
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  364  VIVQRL  369
+
+
+>sp|Q54BQ5|NSF1C_DICDI NSFL1 cofactor p47 homolog OS=Dictyostelium 
+discoideum OX=44689 GN=nsfl1c PE=3 SV=1
+Length=415
+
+ Score = 103 bits (257),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 62/199 (31%), Positives = 99/199 (50%), Gaps = 20/199 (10%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            +KV  +  GF IDD   R    PEN+  + DI+  + P EL+K++     ++V + +  +
+Sbjct  216  VKVTFWNQGFTIDDGPLRKYDNPENKELLDDIQRGIVPRELQKKATTPNGLSVTLINNHN  275
+
+Query  83   EIYVPPKKPMEM-FSGSGNSLGQTRSSALQVNIESEAQ-------------------VTV  122
+            + YV P KP  + FSG G +LG + +S    N  +                      + V
+Sbjct  276  QDYVEPAKPKYVAFSGGGQTLGSSSTSTNNNNNNNNNNNNRATTTSTTTTSTPNVSSINV  335
+
+Query  123  DKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSGFPPKEIKFD  182
+            D+++PTT +Q+R  NG +   T NH HT+ D+       +  +  + L++GFP K +   
+Sbjct  336  DQSQPTTTVQIRLANGSRLSTTFNHSHTLQDVINYINSSSGSNQSFDLLTGFPQKPVTNP  395
+
+Query  183  PSTTLKNAGLLQETISQNL  201
+             STTLK+AGLL   + Q L
+Sbjct  396  TSTTLKDAGLLNALLIQKL  414
+
+
+>sp|O35987|NSF1C_RAT NSFL1 cofactor p47 OS=Rattus norvegicus OX=10116 
+GN=Nsfl1c PE=1 SV=1
+Length=370
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 62/186 (33%), Positives = 96/186 (52%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K GF +D+ + R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V
+Sbjct  186  LWKTGFSLDNGDLRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFV  244
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   + +++ +PTTNIQ+R  +
+Sbjct  245  KPKGAFKAFTGEGQKLGSTAPQVLNTSSPAQQAENEAKASSSILINEAEPTTNIQIRLAD  304
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL  
+Sbjct  305  GGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNA  363
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  364  VIVQRL  369
+
+
+>sp|Q9CZ44|NSF1C_MOUSE NSFL1 cofactor p47 OS=Mus musculus OX=10090 
+GN=Nsfl1c PE=1 SV=1
+Length=370
+
+ Score = 102 bits (254),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 62/186 (33%), Positives = 96/186 (52%), Gaps = 13/186 (7%)
+
+Query  27   LYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYV  86
+            L+K GF +D+ + R    P N  F+  I+    P ELR+ +   Q +N+ ++D   E +V
+Sbjct  186  LWKTGFSLDNGDLRSYQDPSNAQFLESIRRGEVPAELRRLAHGGQ-VNLDMEDHRDEDFV  244
+
+Query  87   PPKKPMEMFSGSGNSLGQT-------RSSALQVNIESEAQ--VTVDKNKPTTNIQLRFHN  137
+             PK   + F+G G  LG T        S A Q   E++A   + +++ +PTTNIQ+R  +
+Sbjct  245  KPKGAFKAFTGEGQKLGSTAPQVLNTSSPAQQAENEAKASSSILINEAEPTTNIQIRLAD  304
+
+Query  138  GQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+            G + V   NH H I+D+    ++  P      + L++ FP KE+  D + TLK A LL  
+Sbjct  305  GGRLVQKFNHSHRISDIRLFIVDARPAMAATSFVLMTTFPNKELA-DENQTLKEANLLNA  363
+
+Query  196  TISQNL  201
+             I Q L
+Sbjct  364  VIVQRL  369
+
+
+>sp|Q9UT81|UBX3_SCHPO UBX domain-containing protein 3 OS=Schizosaccharomyces 
+pombe (strain 972 / ATCC 24843) OX=284812 GN=ubx3 
+PE=1 SV=1
+Length=410
+
+ Score = 100 bits (249),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 73/209 (35%), Positives = 104/209 (50%), Gaps = 36/209 (17%)
+
+Query  19   PENAIKVVLY--KNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVA  76
+            PE  ++  LY  +NGF +DD        P N+  +R I +  AP  L   S N Q I+V 
+Sbjct  208  PEKPLRRTLYFWRNGFSVDDGPIYTYDDPANQEMLRYINSGRAPLHLLGVSMN-QPIDVV  266
+
+Query  77   VDDRSSEIYVPPKKPMEMFSGSGNSLGQT------------------RSSALQVNIES--  116
+            V  R  E YV P KP   FSG G  LG T                   SS++ +N++   
+Sbjct  267  VQHRMDEDYVAPFKP---FSGKGQRLGSTYMQPRMSQMPGGLYTDTSTSSSVPINVKPNS  323
+
+Query  117  ---EAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSG  173
+                A + +D+NKPTT IQ+R  NG + V+T+N  HT+ D++      +P  G + L   
+Sbjct  324  TTPHASLQIDENKPTTRIQVRLSNGGRTVLTVNLSHTLHDIYEAVRAVSP--GNFILSVP  381
+
+Query  174  FPPKEIKFDPSTT-----LKNAGLLQETI  197
+            FP K ++ DPS T     LKNA L+Q+++
+Sbjct  382  FPAKTLEDDPSVTVEAASLKNASLVQKSL  410
+
+
+>sp|Q0KL01|UBX2B_MOUSE UBX domain-containing protein 2B OS=Mus 
+musculus OX=10090 GN=Ubxn2b PE=1 SV=2
+Length=331
+
+ Score = 90.9 bits (224),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 58/189 (31%), Positives = 90/189 (48%), Gaps = 12/189 (6%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            + + L++NGF +DD E R  S P N  F+  +K    P EL++     Q +N+ ++D   
+Sbjct  144  VLLKLWRNGFSLDDGELRPYSDPTNAQFLESVKRGETPLELQRLVHGAQ-VNLDMEDHQD  202
+
+Query  83   EIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLR  134
+            + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R
+Sbjct  203  QEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAAVLIDDSMPTTKIQIR  262
+
+Query  135  FHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGL  192
+              +G + V   N  H I D+    +   P     ++ LV+ FP KE+  D + TL+ A +
+Sbjct  263  LADGSRLVQRFNSTHRILDVRDFIVRSRPEFATTDFILVTSFPSKELT-DETVTLQEADI  321
+
+Query  193  LQETISQNL  201
+            L   I Q L
+Sbjct  322  LNTVILQQL  330
+
+
+>sp|P0C627|UBX2B_RAT UBX domain-containing protein 2B OS=Rattus 
+norvegicus OX=10116 GN=Ubxn2b PE=1 SV=1
+Length=331
+
+ Score = 90.5 bits (223),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 58/189 (31%), Positives = 92/189 (49%), Gaps = 12/189 (6%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            I + L+ NGF +DD E R  S P N  F+  +K    P EL++    +Q +++ ++D   
+Sbjct  144  ILLRLWSNGFSLDDGELRPYSDPTNAQFLESVKRGEIPLELQRLVHGSQ-VSLDMEDHQD  202
+
+Query  83   EIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLR  134
+            + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R
+Sbjct  203  QEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAAVLIDDSVPTTKIQIR  262
+
+Query  135  FHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGL  192
+              +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL++A +
+Sbjct  263  LADGSRLIQRFNSTHRILDVRDFIVQSRPEFATTDFILVTSFPSKELT-DESVTLQDADI  321
+
+Query  193  LQETISQNL  201
+            L   I Q L
+Sbjct  322  LNTVILQQL  330
+
+
+>sp|Q5ZLK2|UBX2B_CHICK UBX domain-containing protein 2B OS=Gallus 
+gallus OX=9031 GN=UBXN2B PE=2 SV=1
+Length=365
+
+ Score = 88.6 bits (218),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 58/189 (31%), Positives = 90/189 (48%), Gaps = 12/189 (6%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            I + L++NGF +DD E R  S P N  F+  +K    P +L++     Q +N+ ++D   
+Sbjct  178  ILLKLWRNGFSLDDGELRSYSDPINAQFLESVKRGEIPVDLQRLVHGGQ-VNLDMEDHQE  236
+
+Query  83   EIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLR  134
+            + YV P+   + FSG G  LG      +      E        A V +D + P T IQ+R
+Sbjct  237  QEYVKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAPVLIDDSVPATKIQIR  296
+
+Query  135  FHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGL  192
+              +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL+ A +
+Sbjct  297  LADGSRLIQRFNQTHRIKDIRDFIIQSRPAFATTDFVLVTTFPNKELT-DESLTLREADI  355
+
+Query  193  LQETISQNL  201
+            L   I Q L
+Sbjct  356  LNTVILQQL  364
+
+
+>sp|Q14CS0|UBX2B_HUMAN UBX domain-containing protein 2B OS=Homo 
+sapiens OX=9606 GN=UBXN2B PE=1 SV=1
+Length=331
+
+ Score = 84.7 bits (208),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 57/189 (30%), Positives = 89/189 (47%), Gaps = 12/189 (6%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            I + L+ NGF +DD E R  + P N  F+  +K    P EL++     Q +N+ ++D   
+Sbjct  144  ILLKLWSNGFSLDDGELRPYNEPTNAQFLESVKRGEIPLELQRLVHGGQ-VNLDMEDHQD  202
+
+Query  83   EIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNIQLR  134
+            + Y+ P+   + FSG G  LG      +      E        A V +D + PTT IQ+R
+Sbjct  203  QEYIKPRLRFKAFSGEGQKLGSLTPEIVSTPSSPEEEDKSILNAVVLIDDSVPTTKIQIR  262
+
+Query  135  FHNGQKKVVTLNHDHTIADLHCIFMECAP--VDGEYQLVSGFPPKEIKFDPSTTLKNAGL  192
+              +G + +   N  H I D+    ++  P     ++ LV+ FP KE+  D S TL  A +
+Sbjct  263  LADGSRLIQRFNSTHRILDVRNFIVQSRPEFAALDFILVTSFPNKELT-DESLTLLEADI  321
+
+Query  193  LQETISQNL  201
+            L   + Q L
+Sbjct  322  LNTVLLQQL  330
+
+
+>sp|Q9SUG6|PUX3_ARATH Plant UBX domain-containing protein 3 OS=Arabidopsis 
+thaliana OX=3702 GN=PUX3 PE=1 SV=1
+Length=302
+
+ Score = 83.2 bits (204),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 70/232 (30%), Positives = 106/232 (46%), Gaps = 41/232 (18%)
+
+Query  4    AVENPGEYNSNGRGI------------------PENAIK-VVLYKNGFIIDDEEFRDISI  44
+            AVE P E+ S+ R                    PE  I  ++ + NGF +DD   R +  
+Sbjct  78   AVEGPLEHPSSSRSFTGTGRLLSGESVPTALQQPEPVIHNIIFWSNGFTVDDGPLRKLDD  137
+
+Query  45   PENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSSEIYVPPKKPMEM-FSGSGNSLG  103
+            PEN +F+  I+ S  P+EL    K      V V+    +   P K+ +++ F G G +LG
+Sbjct  138  PENASFLDSIRKSECPKELEPVDKR---APVHVNLMRRDEKCPEKEKLKVSFQGVGRTLG  194
+
+Query  104  Q------------TRSSALQVNIESEAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTI  151
+                         T  +A+Q  ++S   + VD+  P+T+IQLR  +G + V   N+ HT+
+Sbjct  195  GASSSTASSQSNLTDVAAVQSPLQS---LVVDETLPSTSIQLRLADGTRMVAKFNNHHTV  251
+
+Query  152  ADLHCIFMECAPVD-GEYQL-VSGFPPKEIKFDPSTTLKNAGLLQETISQNL  201
+             D+        P +   Y L V GFPPK +  DPS T++ AGL    + Q  
+Sbjct  252  NDIRGFIEFSRPGNPNNYTLQVMGFPPKPLT-DPSQTIEQAGLASSVVIQKF  302
+
+
+>sp|Q0P3R5|UBX2B_XENLA UBX domain-containing protein 2B OS=Xenopus 
+laevis OX=8355 GN=ubxn2b PE=2 SV=1
+Length=350
+
+ Score = 83.6 bits (205),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 58/197 (29%), Positives = 92/197 (47%), Gaps = 22/197 (11%)
+
+Query  20   ENAIKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDD  79
+            E  I + L+ NGF +DD E R  S P N  F+  +K    P EL++     Q +N+ ++D
+Sbjct  160  EIQILLKLWSNGFSLDDGELRSYSDPINAEFLESVKKGEIPVELQRLVHGGQ-VNLDMED  218
+
+Query  80   RSSEIYVPPKKPMEMFSGSGNSLGQTRSSALQVNIESE--------AQVTVDKNKPTTNI  131
+               + Y+ P+   + FSG G  LG      +      E        A+V +D++ PTT I
+Sbjct  219  HQDQEYIKPRLKFKAFSGEGKKLGSVTPEIISTPSSPEEEHKRFLNAEVDLDEHVPTTKI  278
+
+Query  132  QLRFHNGQKKVVTLNHDHTIADLHCI-------FMECAPVDGEYQLVSGFPPKEIKFDPS  184
+            Q+R  +G + +   N  H I D+          F +C     ++ L++ FP  E+  D +
+Sbjct  279  QIRLADGTRLIQRFNLSHRIMDVRQFIIHARSDFAQC-----DFALLTTFPNVELT-DET  332
+
+Query  185  TTLKNAGLLQETISQNL  201
+             TL+ A +L   I Q L
+Sbjct  333  QTLEEADILNTVILQRL  349
+
+
+>sp|Q7Y175|PUX5_ARATH Plant UBX domain-containing protein 5 OS=Arabidopsis 
+thaliana OX=3702 GN=PUX5 PE=1 SV=1
+Length=421
+
+ Score = 82.0 bits (201),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 63/191 (33%), Positives = 91/191 (48%), Gaps = 19/191 (10%)
+
+Query  25   VVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVD-DRSSE  83
+            +  + NGF ++D   R  S PEN AF+  I  S  P EL    K    I V VD  R  E
+Sbjct  236  ITFWLNGFTVNDGPLRGFSDPENAAFMNSISRSECPSELEPADKK---IPVHVDLVRRGE  292
+
+Query  84   IYVPPKKPMEMFSGSGNSL----------GQTRSSALQVNIESEAQVTVDKNKPTTNIQL  133
+             +  P KP   F G G +L           Q  S+ + V       + VD   PTT+IQL
+Sbjct  293  NFTEPPKPKNPFQGVGRTLGASGSGSSSAPQASSAPMNVAPAPSRGLVVDPAAPTTSIQL  352
+
+Query  134  RFHNGQKKVVTLNHDHTIADLHCIFMECAPVDG--EYQLVS-GFPPKEIKFDPSTTLKNA  190
+            R  +G + V   N+ HT+ D+   F++ +   G  EYQL++ GFPPK++  +   T++ A
+Sbjct  353  RLADGTRLVSRFNNHHTVRDVRG-FIDASRPGGSKEYQLLTMGFPPKQLT-ELDQTIEQA  410
+
+Query  191  GLLQETISQNL  201
+            G+    + Q  
+Sbjct  411  GIANAVVIQKF  421
+
+
+>sp|Q8RWU7|PUX4_ARATH Plant UBX domain-containing protein 4 OS=Arabidopsis 
+thaliana OX=3702 GN=PUX4 PE=1 SV=1
+Length=303
+
+ Score = 78.2 bits (191),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 62/211 (29%), Positives = 94/211 (45%), Gaps = 22/211 (10%)
+
+Query  9    GEYNSNGRGIPENAIK-VVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRS  67
+            GE    G   PE  +  +V + NGF IDD   R +  PEN +F+  I+ S  P+EL    
+Sbjct  97   GENVPTGNQQPEPVVHNIVFWSNGFTIDDGPLRKLDDPENASFLESIRKSECPKEL---E  153
+
+Query  68   KNNQTINVAVDDRSSEIYVPPKKPMEM-FSGSGNSLGQTRSSA--------------LQV  112
+              ++   V V+    E   P ++   + F G G +LG +   +              +Q 
+Sbjct  154  PADRRAPVHVNLMRKEEKCPERQKRRVSFQGVGRTLGGSNEGSGSSSPVAPDSAPIPIQT  213
+
+Query  113  NIESEAQVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECAP-VDGEYQLV  171
+                   + +D+  PTT+IQLR  +G + V   NH HT+ D+        P     YQL 
+Sbjct  214  EPAPSQSLVIDETVPTTSIQLRLADGTRLVAKFNHHHTVNDIRGFIDSSRPGASLNYQLQ  273
+
+Query  172  S-GFPPKEIKFDPSTTLKNAGLLQETISQNL  201
+            + GFPPK +  D + T++ AGL    + Q  
+Sbjct  274  TMGFPPKPLT-DLTQTIEEAGLANSVVLQKF  303
+
+
+>sp|P68543|UBX2A_HUMAN UBX domain-containing protein 2A OS=Homo 
+sapiens OX=9606 GN=UBXN2A PE=1 SV=1
+Length=259
+
+ Score = 65.1 bits (157),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 54/183 (30%), Positives = 93/183 (51%), Gaps = 20/183 (11%)
+
+Query  23   IKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQTINVAVDDRSS  82
+            + + L+KNGF ++D+ FR  S   ++ F+  IK    P EL+    + + ++V V+D+ +
+Sbjct  63   VNIKLWKNGFTVNDD-FRSYSDGASQQFLNSIKKGELPSELQGIF-DKEEVDVKVEDKKN  120
+
+Query  83   EIYVPPKKPMEMFSGSGNSLGQTR----SSALQVNIESE---AQVTVDKNKPTTNIQLRF  135
+            EI +  K   + FSG G+ LG       S A  + +E++   + V ++  +P TNIQ+  
+Sbjct  121  EICLSTKPVFQPFSGQGHRLGSATPKIVSKAKNIEVENKNNLSAVPLNNLEPITNIQIWL  180
+
+Query  136  HNGQKKVVTLNHDHTIADLHCIFMECAPVDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQE  195
+             NG++ V   N  H ++ +   F+E      +YQ     PP    F  +T L    LL E
+Sbjct  181  ANGKRIVQKFNITHRVSHIK-DFIE------KYQGSQRSPP----FSLATALPVLRLLDE  229
+
+Query  196  TIS  198
+            T++
+Sbjct  230  TLT  232
+
+
+>sp|Q9N2W5|UBXN2_CAEEL UBX domain-containing protein 2 OS=Caenorhabditis 
+elegans OX=6239 GN=ubxn-2 PE=1 SV=2
+Length=301
+
+ Score = 63.9 bits (154),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 57/222 (26%), Positives = 95/222 (43%), Gaps = 40/222 (18%)
+
+Query  16   RGIPEN----AIKVVLYKNGFIIDDEEFRDISIPENEAFIRDIKNSVAPEELRKRSKNNQ  71
+            RG P      ++ + L+ +G  I+D        P    F+  +     P  L ++    +
+Sbjct  81   RGRPSGRETISLTLHLWSDGLSIEDGPLMSRQDPRTIEFLESVGKGEIPPSLVQQYPGKE  140
+
+Query  72   TINVAVDDRSSEIYVPPKKPMEMFSGSGNSLGQTRSSAL---------------------  110
+             I+  V+ R  E YV PK  M+ F GSG  LG    + L                     
+Sbjct  141  -IDFKVN-RHHEEYVAPK--MKPFGGSGVRLGNVVPTVLGQSSSSATTAGTSSATTDHNP  196
+
+Query  111  QVNIESEA--------QVTVDKNKPTTNIQLRFHNGQKKVVTLNHDHTIADLHCIFMECA  162
+                E+EA        +++ + N+PTTNIQ+R  N Q+ V   NH HT+  +        
+Sbjct  197  DHTAENEAKQLEDAKKELSTNMNEPTTNIQIRLPNNQRLVGIFNHSHTLEAVRTFICTAR  256
+
+Query  163  P--VDGEYQLVSGFPPKEIKFDPSTTLKNAGLLQETISQNLI  202
+            P  +   +Q+++ +PPK  + D S TLK+A +L   ++  ++
+Sbjct  257  PDMIYAPFQMMAAYPPKPFE-DESQTLKDANVLNSVVAVKIL  297
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.132    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 12601834110
+
+
+  Database: uniprot_sprot
+    Posted date:  Jan 12, 2021  3:58 PM
+  Number of letters in database: 203,185,243
+  Number of sequences in database:  563,972
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
