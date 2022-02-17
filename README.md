@@ -1,6 +1,6 @@
 ## bioinformatics Practical 2
 
-All files herein are the results of stuctural analysis for practical 2 of the final year bioinformatics module.
+All files herein are the results of stuctural and unfctional analysis for practical 2 of the final year bioinformatics module.
 
 
 
